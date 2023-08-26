@@ -1,0 +1,63 @@
+// C++ Control Structures , If Else and Switch-Case Statement
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // C++ CONTROL STRUCTURES ARE OF THREE TYPES
+    // 1. SEQUENCE STRUCTURE
+    // 2. SELECTION STRUCTURE
+    // 3. LOOP STRUCTURE
+
+    // PROGRAMMING THAT WE HAVE DONE FROM TUTORIAL ONE TO TUTORIAL EIGHT
+    // IS COME UNDER THE SEQUENCE STRUCTURE
+
+    // Three ways to model selection structure  in programming are :
+    // 1. if else statement
+    // 2. if else ladder
+    // 3. switch case
+
+    // cout<<"This is tutorial 9 . "<<endl;
+
+    int age;
+    cout << "Tell me your age . " << endl;
+    cin >> age;
+
+    // selection control structure - if else-if else ladder
+    // if((age<18)&&(age>=1)){
+    //     cout<<"You can not come to my party. "<<endl;
+    // }
+    // else if(age==18){
+    //     cout<<"you are a kid and you will get a kid pass to the party"<<endl;
+    // }
+    // else if(age<1){
+    //     cout<<"You are not yet born. "<<endl;
+    // }
+    //  else{
+    //     cout<<"You can come to the party. "<<endl;
+    // }
+
+    // selection control structure - switch case statement
+    switch (age)
+    {
+    case 18:
+        cout << "You are 18. " << endl;
+        break;
+
+    case 22:
+        cout << "You are 22. " << endl;
+        break;
+    case 2:
+        cout << "You are 2. " << endl;
+        break;
+
+    default:
+        cout << "No special cases. " << endl;
+        break;
+    }
+
+    cout << "Done with switch case. " << endl;
+
+    return 0;
+}
